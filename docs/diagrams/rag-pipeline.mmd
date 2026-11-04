@@ -1,0 +1,8 @@
+flowchart LR
+ Q[Question] --> N[Normalize]
+ N --> R[Hybrid/vector retrieval]
+ R --> F[Filter/rerank]
+ F --> C[Context assembly]
+ C --> L[LLM invocation]
+ L --> P[Output parser]
+ P --> A[Answer with sources]

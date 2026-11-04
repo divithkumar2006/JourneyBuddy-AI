@@ -1,0 +1,14 @@
+flowchart TD
+ Q[User query] --> P[Plan intent]
+ P --> D{Which capability?}
+ D -->|Internship facts| DB[Internal API/database]
+ D -->|Current external info| WEB[Web search]
+ D -->|Roadmap| RM[Roadmap logic]
+ D -->|Unclear| CL[Ask clarification]
+ DB --> O[Observe results]
+ WEB --> O
+ RM --> O
+ O --> E{Enough evidence?}
+ E -->|No| I[Iterate within limits]
+ I --> P
+ E -->|Yes| S[Synthesize answer and sources]

@@ -1,0 +1,11 @@
+sequenceDiagram
+ participant U as User
+ participant C as Client
+ participant F as Firebase Auth
+ participant A as API
+ U->>C: Sign in
+ C->>F: Credentials
+ F-->>C: ID token
+ C->>A: Request + Bearer token
+ A->>A: Verify token and authorization
+ A-->>C: Protected response or 401/403

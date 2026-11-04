@@ -1,0 +1,8 @@
+flowchart TD
+ A[Request] --> B[Capture timestamp and trace ID]
+ B --> C[Inspect headers and size]
+ C --> D[Validate and sanitize input]
+ D -->|Invalid| E[Return 4xx]
+ D -->|Valid| F[Route handler]
+ F --> G[Response]
+ G --> H[Log status and latency safely]

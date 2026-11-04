@@ -1,0 +1,9 @@
+stateDiagram-v2
+ [*] --> Idle
+ Idle --> Loading: submit
+ Loading --> Success: valid response
+ Loading --> Error: network/API error
+ Success --> Loading: new request
+ Error --> Loading: retry
+ Success --> Idle: reset
+ Error --> Idle: reset
