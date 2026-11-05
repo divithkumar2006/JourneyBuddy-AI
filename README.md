@@ -37,4 +37,4 @@ Firebase, MongoDB Atlas Vector Search, Pinecone, Redis, and Google Cloud integra
 
 ## Developer
 
-Anushka Garthe — B.Tech Information Science & Engineering
+Divith Kumar — B.Tech Information Science & Engineering
