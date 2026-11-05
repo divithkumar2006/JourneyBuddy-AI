@@ -1,15 +1,40 @@
-# JourneyBuddy AI — Assignment Deliverables
 
-This bundle contains conceptual task documentation for the 12 curriculum modules and integration architecture diagrams.
+# JourneyBuddy AI — Internship & Career Roadmap Assistant
 
-## Existing application
-Keep the existing JourneyBuddy frontend/backend (internship matching and skill roadmap). This bundle is documentation and architecture material; it does not replace application code or provision cloud services.
+JourneyBuddy AI helps students discover internships, match opportunities with their skills, and generate personalized learning roadmaps.
 
-## Modules
-See `modules/01-nextjs-frontend` through `modules/12-agentic-ai`. Each module README includes objective, task artifact, conceptual exercise, and technical reference.
+## Existing Application
 
-## Diagrams
-Mermaid diagrams are under `docs/diagrams`. GitHub renders `.mmd` as source; paste into Mermaid Live Editor or use fenced `mermaid` blocks in Markdown to render.
+- Next.js frontend
+- FastAPI backend
+- Internship discovery and matching
+- AI-assisted skill roadmap generation
+
+## Curriculum Modules
+
+| Module | Documentation |
+|---|---|
+| 1. Next.js | [Module 1](docs/curriculum/01-nextjs/README.md) |
+| 2. Node.js Middleware | [Module 2](docs/curriculum/02-nodejs-middleware/README.md) |
+| 3. FastAPI | [Module 3](docs/curriculum/03-fastapi/README.md) |
+| 4. Firebase Authentication | [Module 4](docs/curriculum/04-firebase-auth/README.md) |
+| 5. MongoDB Vector Search | [Module 5](docs/curriculum/05-mongodb-vector-search/README.md) |
+| 6. Pinecone | [Module 6](docs/curriculum/06-pinecone/README.md) |
+| 7. Redis | [Module 7](docs/curriculum/07-redis/README.md) |
+| 8. Docker | [Module 8](docs/curriculum/08-docker/README.md) |
+| 9. Google Cloud | [Module 9](docs/curriculum/09-gcp/README.md) |
+| 10. LangChain | [Module 10](docs/curriculum/10-langchain/README.md) |
+| 11. Google ADK | [Module 11](docs/curriculum/11-google-adk/README.md) |
+| 12. Agentic AI | [Module 12](docs/curriculum/12-agentic-ai/README.md) |
+
+## Integration Architecture
+
+See [Integration Architecture](docs/INTEGRATION_ARCHITECTURE.md).
 
 ## Important
-MongoDB Atlas, Pinecone, Redis, Firebase, and GCP require actual account configuration, credentials, code integration, and testing. This bundle documents intended design and does not claim those services are connected.
+
+Firebase, MongoDB Atlas Vector Search, Pinecone, Redis, and Google Cloud integrations require configuration and testing before being considered operational.
+
+## Developer
+
+Anushka Garthe — B.Tech Information Science & Engineering
