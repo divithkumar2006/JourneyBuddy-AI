@@ -1,26 +1,17 @@
-﻿# 04-firebase-auth
+﻿# Module 4: Firebase Authentication
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Registration and login
+- Email/password authentication
+- Google sign-in
+- Authentication tokens
+- Protected routes
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Configure Firebase Authentication and protect a dashboard.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Firebase can authenticate users and protect saved internships and roadmaps.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://firebase.google.com/docs/auth

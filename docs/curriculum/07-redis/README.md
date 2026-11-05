@@ -1,26 +1,17 @@
-﻿# 07-redis
+﻿# Module 7: Redis
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Key-value storage
+- Cache expiration
+- TTL
+- Counters
+- Rate limiting
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Cache internship API responses and implement an expiring request counter.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Redis can cache frequently requested data and enforce API rate limits.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://redis.io/docs/latest/

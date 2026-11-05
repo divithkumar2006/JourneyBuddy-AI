@@ -1,26 +1,17 @@
-﻿# 01-nextjs
+﻿# Module 1: Next.js Frontend Architecture
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- App Router and file-based routing
+- Pages, layouts, and components
+- Server and Client Components
+- Data fetching and API routes
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create an internship dashboard with homepage, internship listing, details, and application form.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Next.js provides the frontend for internship discovery and roadmap generation.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://nextjs.org/docs
+- https://react.dev

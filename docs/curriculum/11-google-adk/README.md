@@ -1,26 +1,18 @@
-﻿# 11-google-adk
+﻿# Module 11: Google Agent Development Kit
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Agent definitions
+- Instructions
+- Tools
+- Agent orchestration
+- Sessions and state
+- Evaluation
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Build an agent that retrieves career information and produces a structured response.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+ADK can orchestrate career guidance agents and tool-based workflows.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://google.github.io/adk-docs/

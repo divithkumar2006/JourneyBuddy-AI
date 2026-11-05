@@ -1,26 +1,17 @@
-﻿# 06-pinecone
+﻿# Module 6: Pinecone
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Vector indexes
+- Namespaces
+- Upsert and query
+- Metadata filters
+- Similarity scores
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create a Pinecone index and query sample internship embeddings.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Pinecone can retrieve semantically relevant internships and learning resources.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://docs.pinecone.io/

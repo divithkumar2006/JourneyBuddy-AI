@@ -1,26 +1,18 @@
-﻿# 10-langchain
+﻿# Module 10: LangChain
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Chat models
+- Prompt templates
+- Chains
+- Retrievers
+- Tool calling
+- Retrieval-Augmented Generation (RAG)
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create an assistant that retrieves internship information and generates a career roadmap.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+LangChain can combine internship retrieval and roadmap generation into an AI workflow.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://docs.langchain.com/

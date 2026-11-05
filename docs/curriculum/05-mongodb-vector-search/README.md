@@ -1,26 +1,18 @@
-﻿# 05-mongodb-vector-search
+﻿# Module 5: MongoDB Atlas Vector Search
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Documents and collections
+- CRUD operations
+- Embeddings
+- Vector indexes
+- Similarity search
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Store internship descriptions, generate embeddings, and retrieve similar opportunities.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+MongoDB can store internship records, user profiles, and semantic search data.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://www.mongodb.com/docs/
+- https://www.mongodb.com/docs/atlas/atlas-vector-search/

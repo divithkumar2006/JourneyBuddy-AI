@@ -1,26 +1,17 @@
-﻿# 08-docker
+﻿# Module 8: Docker
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Images and containers
+- Dockerfiles
+- Container ports
+- Environment variables
+- Docker Compose
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create frontend and backend Dockerfiles and run services using Docker Compose.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Docker packages Next.js and FastAPI services for consistent deployment.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://docs.docker.com/

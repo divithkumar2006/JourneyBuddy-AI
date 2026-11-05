@@ -1,26 +1,18 @@
-﻿# 02-nodejs-middleware
+﻿# Module 2: Node.js Middleware
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Express middleware
+- Request and response lifecycle
+- Logging and error handling
+- Authentication middleware
+- Rate limiting
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create an Express server with logging, validation, and a health endpoint.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+A Node.js gateway can manage authentication, rate limiting, and routing.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://nodejs.org/docs/latest/api/
+- https://expressjs.com/en/guide/using-middleware.html

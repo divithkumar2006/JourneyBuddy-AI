@@ -1,26 +1,18 @@
-﻿# 03-fastapi
+﻿# Module 3: FastAPI
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- API routes and HTTP methods
+- Pydantic validation
+- Async endpoints
+- Dependency injection
+- Swagger documentation
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Create internship and roadmap endpoints with validated JSON requests.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+FastAPI powers internship listing, matching, and roadmap APIs.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://fastapi.tiangolo.com/
+- https://docs.pydantic.dev/

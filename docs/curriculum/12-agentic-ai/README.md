@@ -1,26 +1,18 @@
-﻿# 12-agentic-ai
+﻿# Module 12: Agentic AI Skills
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Agent goals and planning
+- Tool usage
+- Skill instructions
+- Context management
+- Human approval
+- Safety and evaluation
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Define a career guidance skill with instructions, allowed tools, and safety constraints.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Agent skills can organize internship search and roadmap generation into reusable workflows.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://agentskills.io/

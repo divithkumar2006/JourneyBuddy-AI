@@ -1,26 +1,18 @@
-﻿# 09-gcp
+﻿# Module 9: Google Cloud Platform
 
-## Objective
-Understand the technology and its role in JourneyBuddy AI.
-
-## Concept
-Explain the important concepts, features, and working principles.
-
-## Architecture
-Describe the components, architecture, and request flow.
+## Concepts
+- Cloud projects
+- Cloud Run
+- Artifact Registry
+- Cloud Build
+- IAM
 
 ## Practical Exercise
-- Explain the practical implementation.
-- Describe inputs and outputs.
-- Include configuration and validation.
-- Document error handling and security.
+Deploy a containerized API to Cloud Run and verify its health endpoint.
 
-## JourneyBuddy AI Integration
-Explain how this module connects to JourneyBuddy AI.
-
-## Implementation Status
-Clearly distinguish implemented features from planned integrations.
+## JourneyBuddy Integration
+Google Cloud Run can host JourneyBuddy backend services.
 
 ## References
-- Official documentation
-- Assignment reference links
+- https://cloud.google.com/docs
+- https://cloud.google.com/run/docs
